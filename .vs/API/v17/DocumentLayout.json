@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\luisc\\source\\repos\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\controllers\\atlasphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|solutionrelative:api\\controllers\\atlasphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\models\\atlasphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|c:\\users\\luisc\\source\\repos\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABC43EE-36AE-4E10-B09B-1A0D6B05E791}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AtlasPhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\Controllers\\AtlasPhotoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AtlasPhotoController.cs",
+              "ToolTip": "C:\\Users\\luisc\\source\\repos\\API\\API\\Controllers\\AtlasPhotoController.cs",
+              "RelativeToolTip": "API\\Controllers\\AtlasPhotoController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:04:03.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -47,20 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "API.csproj",
-              "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\API.csproj",
-              "RelativeDocumentMoniker": "API\\API.csproj",
-              "ToolTip": "C:\\Users\\luisc\\source\\repos\\API\\API\\API.csproj",
-              "RelativeToolTip": "API\\API.csproj",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-13T03:46:57.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\Models\\Dto\\ResponseDto.cs",
               "RelativeDocumentMoniker": "API\\Models\\Dto\\ResponseDto.cs",
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AtlasPhoto.cs",
               "DocumentMoniker": "C:\\Users\\luisc\\source\\repos\\API\\API\\Models\\AtlasPhoto.cs",
               "RelativeDocumentMoniker": "API\\Models\\AtlasPhoto.cs",
               "ToolTip": "C:\\Users\\luisc\\source\\repos\\API\\API\\Models\\AtlasPhoto.cs",
               "RelativeToolTip": "API\\Models\\AtlasPhoto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T03:48:37.606Z",
               "EditorCaption": ""

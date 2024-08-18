@@ -7,7 +7,7 @@ namespace API.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Titler { get; set; }
+        public string Title { get; set; }
         public string Photographer { get; set; }
         public string Description { get; set; }
         [Required]

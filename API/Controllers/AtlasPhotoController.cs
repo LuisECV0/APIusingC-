@@ -69,6 +69,73 @@ namespace API.Controllers
             return _response;
         }
 
+        [HttpPost("PostPhoto")]
+        public ResponseDto PostPhoto([FromBody] AtlasPhoto photo)
+        {
+            try
+            {
+                _context.Photos.Add(photo);
+                _context.SaveChanges();
+                _response.Data = photo;
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+        [HttpPut("PutPhoto")]
+        public ResponseDto PutPhoto([FromBody] AtlasPhoto photos)
+        {
+            try
+            {
+                _context.Photos.Update(photos);
+                _context.SaveChanges();
+                _response.Data = photos;
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+        [HttpGet("DeletePhoto/{id}")]
+        public ResponseDto DeletePhoto(int id)
+        {
+            try
+            {
+                var photo = _context.Photos.FirstOrDefault(p => p.Id == id);
+                _context.Remove(photo);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

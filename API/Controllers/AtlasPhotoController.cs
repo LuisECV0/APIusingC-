@@ -103,7 +103,7 @@ namespace API.Controllers
             return _response;
         }
 
-        [HttpGet("DeletePhoto/{id}")]
+        [HttpDelete("DeletePhoto/{id}")]
         public ResponseDto DeletePhoto(int id)
         {
             try
